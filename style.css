@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    height: 100vh;
+    background-image: url(img/alarm-online.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 50px;
+    background: linear-gradient(130deg, black 20%, silver 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 25px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+select {
+    width: 10%;
+    height: 7%;
+    margin-top: 30%;
+    margin-left: 1%;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border: solid silver;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    margin-left: 1%; 
+    width: 25%;
+    height: 7%;
+    margin-top: 2%;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: silver;
+    border-radius: 10px;
+}
+
+button:hover {
+    transform: scale(1.03);
+    transition: all 0.2s ease;
+    background: #b3b3b3;
+}
+
+.instruction {
+    float: right;
+    margin-top: 17%;
+    margin-right: 1%;
+}
+
+
+h3 {
+    font-size: 35px;
+    margin-top: 12%;
+    margin-left: 5%;
+}
+
+ol {
+    width: 90%;
+    margin-left: 12%;
+    margin-top: 10%;
+}
+
+li {
+    margin-top: 3%;
+    font-size: 17px;
+}
+
+h4 {
+    font-size: 35px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.disable {
+    pointer-events: none;
+    opacity: 0.5;
+ }
+
+ .ringtones {
+    margin-top: 2%;
+ }

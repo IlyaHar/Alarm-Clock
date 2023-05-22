@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div  class="instruction">
+        <h3>Прокидайтеся вчасно!</h3>
+        <ol>
+            <li>Заведіть будильник на час, який вам потрібно</li>
+            <li>Виберіть улюблену мелодію</li>
+            <li>Натисніть кнопку увімкнути будильник</li>
+        </ol>
+        <h4>Все дуже просто!</h4>
+        </div>
+        <select onchange="changeColor(this)">
+            <option value="hour" selected hidden>Години</option>
+
+        </select>
+        <select onchange="changeColor(this)">
+            <option value="minute" selected hidden>Хвилини</option>
+            
+        </select>
+        <select onchange="changeColor(this)">
+            <option value="AM/PM" selected hidden>AM/PM</option>
+        </select>
+
+        <button>Увімкнути Будильник</button>
+        <select class="ringtones" onchange="changeColor(this)" id="ringtoneSelect">
+            <option value="ringtone.mp3">Cтандарт</option>
+            <option value="morning.mp3">Природа</option>
+        </select>
+        <h2></h2>
+        <h1>Найкращий Будильник</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
